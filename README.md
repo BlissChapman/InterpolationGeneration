@@ -3,6 +3,7 @@ A stupidly simple "generative model" tested on standard univariate distributions
 
 #### Method
 Estimate the empirical distribution of the training set. Generate a uniform random variable _u_ between 0 and 1. Find the value at the _u_'th percentile of the training set, linearly interpolating when the desired quantile lies between two data points. That's it!
+
 ![Empirical Distribution](examples/empdistrib.png)
 
 ## Results
