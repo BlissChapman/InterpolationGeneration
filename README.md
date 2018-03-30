@@ -15,6 +15,7 @@ Estimate the empirical distribution of the training set. Generate a uniform rand
 
 ### MNIST
 For each of the 784 pixels in an MNIST image, consider the ECDF of the distribution of that pixel's values across all images in the training set with the same label. Sample from this ECDF using the method described above. Note that this strategy does not incorporate the prior knowledge that pixels near each other should be related to one another. This method is stupid!
+
 ![MNIST](examples/mnist_example_1.png)
 ![MNIST](examples/mnist_example_2.png)
 ![MNIST](examples/mnist_example_3.png)
